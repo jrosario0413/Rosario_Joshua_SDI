@@ -27,5 +27,27 @@ console.log("Each person ate "+ spp + " slices of pizza at the party.");
 
 var sparky = 0;
 // Output for sparky
-console.log("Sparky got " + sparky + " slices of pizza.")
+console.log("Sparky got " + sparky + " slices of pizza.");
+
+// Average Shopping Bill
+
+// 5 Weekly grocery bills
+
+var week1 = 200;
+var week2 = 175;
+var week3 = 150;
+var week4 = 125;
+var week5 = 100;
+
+//Total ammount
+var total =  750;
+
+// Find average
+
+var averageBill = (week1 + week2 + week3 + week4 + week5) /5;
+//Average = 150
+
+//Output Result
+
+console.log(averageBill);
 
