@@ -12,7 +12,7 @@
 //number of people at the party = 16
 //number of pizzas ordered = 4
 
-var slices = 8;
+var slices = 12;
 var people = 16;
 var ordered = 4;
 
@@ -25,7 +25,7 @@ console.log("Each person ate "+ spp + " slices of pizza at the party.");
 
 // Unfortunately there aren't any leftovers
 
-var sparky = 0;
+var sparky = (slices * ordered % people);
 // Output for sparky
 console.log("Sparky got " + sparky + " slices of pizza.");
 
@@ -40,11 +40,11 @@ var week4 = 125;
 var week5 = 100;
 
 //Total ammount
-var total =  750;
+var total =  (week1 + week2 + week3 + week4 + week5);
 
 // Find average
 
-var averageBill = (week1 + week2 + week3 + week4 + week5) /5;
+var averageBill = total /5;
 //Average = 150
 
 //Output Result
@@ -62,8 +62,8 @@ var salesTax = 0.07;
 var discountedPrice = originalPrice - (originalPrice * discountPercentage);
 
 // Calculate price with tax and without
-var priceWithTax = (discountedPrice * salesTax) + discountedPrice
-var priceNoTax = discountedPrice
+var priceWithTax = (discountedPrice * salesTax) + discountedPrice;
+var priceNoTax = discountedPrice;
 // xbox was originally 500 but with a 25% discount it goes for 375 without tax but with tax it goes for 401.25
 
 // Output Result
