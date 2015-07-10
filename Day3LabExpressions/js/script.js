@@ -54,10 +54,18 @@ console.log("You have spent a total of $"+ total + " on groceries over the past 
 // Discount
 
 var originalPrice = 500;
-var discountPercentage = 0.25;
+var discount = 25;
+var discountPercentage = discount / 100;
 var xbox = "xboxOne";
 var salesTax = 0.07;
 
+var discountedPrice = originalPrice - (originalPrice * discountPercentage);
+
 // Calculate price with tax and without
+var priceWithTax = (discountedPrice * salesTax) + discountedPrice
+var priceNoTax = discountedPrice
+// xbox was originally 500 but with a 25% discount it goes for 375 without tax but with tax it goes for 401.25
 
+// Output Result
 
+console.log("Your"+ xbox +" was originally $"+ originalPrice +", but after a "+ discount +"% discount, it is now $"+ priceNoTax + " without tax, and $"+ priceWithTax +" with tax." );
