@@ -23,3 +23,9 @@ console.log("Each person ate "+ spp + " slices of pizza at the party.");
 
 // Slice of Pizza Part 2
 
+// Unfortunately there aren't any leftovers
+
+var sparky = 0;
+// Output for sparky
+console.log("Sparky got " + sparky + " slices of pizza.")
+
