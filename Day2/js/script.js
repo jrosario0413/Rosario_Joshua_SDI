@@ -165,3 +165,15 @@ var combine = d + e;
 console.log(combine);
 
 
+
+
+
+// Calculate area of rectangle
+var width2 = 5;
+var height2 = 4;
+
+// width * height = area
+var area2 = width2 * height2;
+
+// Result format - outputting to console
+console.log("The area of a rectangle is "+area2);
