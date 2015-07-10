@@ -49,5 +49,15 @@ var averageBill = (week1 + week2 + week3 + week4 + week5) /5;
 
 //Output Result
 
-console.log(averageBill);
+console.log("You have spent a total of $"+ total + " on groceries over the past 5 weeks. " + "That is an average of $"+ averageBill + " per week.");
+
+// Discount
+
+var originalPrice = 500;
+var discountPercentage = 0.25;
+var xbox = "xboxOne";
+var salesTax = 0.07;
+
+// Calculate price with tax and without
+
 
