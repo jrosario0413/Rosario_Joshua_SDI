@@ -42,10 +42,28 @@ alert("Let's calculate area of the second parallelogram.");
  alert("The area of the third parallelogram is "+area3 + " square feet.");
 
  // calculated area of third parallelogram
+ var arrayParallelograms =[area1, area2, area3];
 
- var averageArea = (area1+area2+area3)/2;
+ //var parallelarea1 = area1;
+ //var parallelarea2 = area2;
+ //var parallelarea3 = area3;
+ var averageArea = (area1+area2+area3)/arrayParallelograms.length;
+
  console.log("The average area is "+averageArea+ " square feet.");
  alert("The average area is "+averageArea+ " square feet.");
 
  //calculated the average area
- 
+
+/*
+tested multiple times with
+1st parallelogram: base = 4 height = 5 area = 20
+2nd parallelogram: base = 5 height = 8 area = 40
+3rd parallelogram: base = 6 height = 10 area = 60
+average area for set = 40
+
+second go
+1st parallelogram: base = 6 height = 10 area = 60
+2nd parallelogram: base = 8 height = 10 area = 80
+3rd parallelogram: base = 10 height = 4 area = 40
+average area for set = 60
+ */
