@@ -42,3 +42,10 @@ alert("Let's calculate area of the second parallelogram.");
  alert("The area of the third parallelogram is "+area3 + " square feet.");
 
  // calculated area of third parallelogram
+
+ var averageArea = (area1+area2+area3)/2;
+ console.log("The average area is "+averageArea+ " square feet.");
+ alert("The average area is "+averageArea+ " square feet.");
+
+ //calculated the average area
+ 
