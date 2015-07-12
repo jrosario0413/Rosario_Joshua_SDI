@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bccbd8e-b88d-4946-96f0-b7bfb31102aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/js/day3_props.js" afterPath="$PROJECT_DIR$/Day3/js/day3_props.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Day3/js/day3Prompts.html" afterPath="$PROJECT_DIR$/Day3/day3Prompts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rosario_Joshua_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,20 +24,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="day3_props.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day3/js/day3_props.js">
+      <file leaf-file-name="day3_casting.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day3/js/day3_casting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58181816">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.96363634">
+              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day3Prompts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3/js/day3Prompts.html">
+      <file leaf-file-name="day3Casting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day3/day3Casting.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.25">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
@@ -51,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SDI Template" />
         <option value="Html5" />
       </list>
     </option>
@@ -69,6 +69,10 @@
         <option value="$PROJECT_DIR$/Day3/js/Day3_Arrays.js" />
         <option value="$PROJECT_DIR$/Day3/js/day3Prompts.html" />
         <option value="$PROJECT_DIR$/Day3/js/day3_props.js" />
+        <option value="$PROJECT_DIR$/Day3/day3Casting.html" />
+        <option value="$PROJECT_DIR$/Day3/js/day3Casting.html" />
+        <option value="$PROJECT_DIR$/Day3/day3Prompts.html" />
+        <option value="$PROJECT_DIR$/Day3/js/day3_casting.js" />
       </list>
     </option>
   </component>
@@ -170,6 +174,11 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day3" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -334,15 +343,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/js/day3_props.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58181816">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/Day3Arrays.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
+        <state vertical-scroll-proportion="0.18726592">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/js/day3Prompts.html">
+    <entry file="file://$PROJECT_DIR$/Day3/day3Prompts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
@@ -350,13 +369,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/js/day3_props.js">
+    <entry file="file://$PROJECT_DIR$/Day3/day3Casting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58181816">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/js/day3_casting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96363634">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
