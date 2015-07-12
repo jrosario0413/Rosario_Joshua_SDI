@@ -51,4 +51,3 @@ Class: Casting Variables
 var d = parseFloat("21.11 years old");
  console.log(d);
 
- 
