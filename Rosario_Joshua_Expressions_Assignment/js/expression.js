@@ -15,8 +15,8 @@ Expression Assignment
 var base1= prompt("What is the measurement of the 'base' for first parallelogram?");
  var height1 = prompt("What is the measurement of the 'height' for the first parallelogram?");
 var area1 = base1 * height1;
- console.log(area1);
- alert("The area of the parallelogram is "+area1 + " square feet.");
+ console.log("The area of the first parallelogram is "+area1 + " square feet.");
+ alert("The area of the first parallelogram is "+area1 + " square feet.");
 
  // Calculated area of first parallelogram
 
@@ -26,7 +26,19 @@ alert("Let's calculate area of the second parallelogram.");
  var base2 = prompt("What is the measurement of the 'base' for second parallelogram?");
  var height2 = prompt("What is the measurement of the 'height' for the second parallelogram?");
  var area2 = base2 * height2;
- console.log(area2);
- alert("The area of the parallelogram is "+area2 + " square feet.");
+ console.log("The area of the second parallelogram is "+area2 + " square feet.");
+ alert("The area of the second parallelogram is "+area2 + " square feet.");
 
  // Calculated area of second parallelogram
+
+ alert("Let's calculate the area of the third parallelogram, and find out the average area");
+
+ // ask user for information
+
+ var base3 = prompt("What is the measurement of the 'base' for third parallelogram?");
+ var height3 = prompt("What is the measurement of the 'height' for the third parallelogram?");
+ var area3 = base3 * height3;
+ console.log("The area of the third parallelogram is "+area3 + " square feet.");
+ alert("The area of the third parallelogram is "+area3 + " square feet.");
+
+ // calculated area of third parallelogram
