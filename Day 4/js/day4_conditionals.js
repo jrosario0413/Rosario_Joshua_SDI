@@ -32,15 +32,19 @@ Class: Conditionals
 
  // Test the kids height to see if he can ride the ride
 
- var kidHeight = 42;
+ var kidHeight = prompt("How tall are you in inches?");
 
  var sneakerLift = 2;
+ var minHeight = 48;
 
  //if the child is 48 inches or taller they can ride the ride
- if(kidHeight >=48){
+ if(kidHeight >=minHeight){
      // Code inside of here will run if chils is 48 or taller
      console.log("Congrats your are tall enough to ride the coaster");
- } else{
+ } else if(Number(kidHeight)+sneakerLift >= minHeight){
+//This code will run if the child is tall enough while wearing sneakers
+     console.log("You are tall enough to ride the coaster with your sneaker, if you wear your sneakers!\nCheater, cheater!");
+ } else {
      console.log("sorry too short to ride the coaster");
  }
 
