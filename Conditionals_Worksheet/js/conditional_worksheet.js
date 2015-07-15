@@ -22,7 +22,7 @@ var gasEfficiency = 20; //(in MPG's)
      console.log("Yes, you can make it without stopping for gas!");
  }
 
- //Group 2
+ //Group 2: Multiple Results
  // Check the login
 
 
@@ -39,3 +39,7 @@ console.log("User not found. Try Again.");
      console.log("Password does not match our records.");
  }
 
+// Group 3: Multiple Conditions
+ // Movie Ticket
+
+ 
