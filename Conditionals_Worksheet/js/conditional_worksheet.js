@@ -12,9 +12,13 @@ Class: Conditional Worksheet
  // Last Chance for Gas
 
 
-var gasEfficiency = 20; //(in MPG's)
- var gasReading = 50; // (in%)
+var gasEfficiency = 20*gasReading; //(in MPG's)
  var gasTank = 10; // (in gallons)
+ var gasReading = 50/100; // (in%)
+
+ var distance = 200;
+
+
 
  if(gasTank<gasReading){
      console.log("You only have "+gasTank+" gallons of gas in your tank, better get gas now while you can!");
@@ -42,4 +46,16 @@ console.log("User not found. Try Again.");
 // Group 3: Multiple Conditions
  // Movie Ticket
 
- 
+ var ticketAdult = 12;
+ var discount = 7;
+ var movieTime = 4
+var age = 18
+
+ if(movieTime>=4&& discount==7){
+console.log("The Ticket price is $7.00.");
+ } else if(discount>3){
+console.log("The Ticket price is $12.00.");
+ } else{
+     console.log("The Ticket is $1000000.");
+ }
+
