@@ -12,16 +12,22 @@ Class: Conditional Worksheet
  // Last Chance for Gas
 
 
-var gasEfficiency = 20*gasReading; //(in MPG's)
- var gasTank = 10; // (in gallons)
- var gasReading = 50/100; // (in%)
+    var gasEfficiency = 20; //(in MPG's)
+    var gasTank = 10; // (in gallons)
+    var gasReading = 50; // (in%)
+
+ var convertToDecimal = gasReading / 100;
+
+ var howMuchGasLeft = gasTank * convertToDecimal;
+
+ var howFarCanIGo = gasEfficiency * howMuchGasLeft;
 
  var distance = 200;
 
 
 
- if(gasTank<gasReading){
-     console.log("You only have "+gasTank+" gallons of gas in your tank, better get gas now while you can!");
+ if(howFarCanIGo<distance){
+     console.log("You only have 5 gallons of gas in your tank, better get gas now while you can!");
  } else {
      console.log("Yes, you can make it without stopping for gas!");
  }
@@ -30,10 +36,10 @@ var gasEfficiency = 20*gasReading; //(in MPG's)
  // Check the login
 
 
- var usernameEntered = 1
- var usernamePassword = 2
- var correctUsername = 3
- var correctPassword = 4
+ var usernameEntered = 1;
+ var usernamePassword = 2;
+ var correctUsername = 3;
+ var correctPassword = 4;
 
  if(usernameEntered+usernamePassword>=3){
 console.log("Welcome, XXX!");
@@ -48,14 +54,18 @@ console.log("User not found. Try Again.");
 
  var ticketAdult = 12;
  var discount = 7;
- var movieTime = 4
-var age = 18
-
- if(movieTime>=4&& discount==7){
+ var movieTime = 4;
+var age = 18;
+var age2 = 60;
+ if(movieTime>=3 && movieTime<=5){
 console.log("The Ticket price is $7.00.");
- } else if(discount>3){
+ } else if(age<55){
 console.log("The Ticket price is $12.00.");
  } else{
      console.log("The Ticket is $1000000.");
  }
 
+//can hold 10 gallons
+ //50% left
+ //50 / 100 = .50
+ //10
