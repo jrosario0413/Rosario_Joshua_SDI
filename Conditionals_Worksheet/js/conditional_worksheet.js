@@ -27,7 +27,7 @@ Class: Conditional Worksheet
 
 
  if(howFarCanIGo<distance){
-     console.log("You only have 5 gallons of gas in your tank, better get gas now while you can!");
+     console.log("You only have "+howMuchGasLeft+" gallons of gas in your tank, better get gas now while you can!");
  } else {
      console.log("Yes, you can make it without stopping for gas!");
  }
@@ -54,18 +54,16 @@ console.log("User not found. Try Again.");
 
  var ticketAdult = 12;
  var discount = 7;
- var movieTime = 4;
-var age = 18;
-var age2 = 60;
+ var movieTime = 5;
+var age = 11;
+var age2 = 9;
  if(movieTime>=3 && movieTime<=5){
 console.log("The Ticket price is $7.00.");
- } else if(age<55){
+ } else if(age<=55 && age>=10){
 console.log("The Ticket price is $12.00.");
- } else{
-     console.log("The Ticket is $1000000.");
+ } else {
+     console.log("The Ticket is $7.00");
  }
 
-//can hold 10 gallons
- //50% left
- //50 / 100 = .50
- //10
+//is time between 3 and 5? if yes: discount
+ //is age between 55 and 10? if yes: no discount
