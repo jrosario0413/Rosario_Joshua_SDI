@@ -35,4 +35,3 @@ Class:Ternary
  console.log("Your kid should read "+book);
  console.log(book2);
 
- 
