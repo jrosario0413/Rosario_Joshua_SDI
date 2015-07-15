@@ -22,4 +22,20 @@ var gasEfficiency = 20; //(in MPG's)
      console.log("Yes, you can make it without stopping for gas!");
  }
 
- //
+ //Group 2
+ // Check the login
+
+
+ var usernameEntered = 1
+ var usernamePassword = 2
+ var correctUsername = 3
+ var correctPassword = 4
+
+ if(usernameEntered+usernamePassword>=3){
+console.log("Welcome, XXX!");
+ } else if(correctUsername+usernamePassword<4){
+console.log("User not found. Try Again.");
+ } else{
+     console.log("Password does not match our records.");
+ }
+
