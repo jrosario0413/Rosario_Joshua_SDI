@@ -19,6 +19,19 @@ Class: Conditional Assignment
 //ask gamer for budget
 var gameBudget = prompt("First, What is your spending limit (Budget)?");
 console.log(gameBudget);
+//Validate user
+ if(isNaN(gameBudget) || gameBudget==="") {
+     // Re- Prompt the user
+     if (isNaN(gameBudget)) {
+         steakTemp = prompt("Please only use numbers");
+
+
+     } else {
+         gameBudget= prompt("Do not leave blank");
+     }
+
+ }
+
 
  if(gameBudget<= 150){
      alert("Save more money!");
