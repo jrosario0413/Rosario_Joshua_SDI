@@ -81,3 +81,11 @@ console.log("Your budget is $"+gameBudget);
          }
 
      }
+
+
+
+ //Tested Results
+ //"year born = 2015 - 1994 = your age is 21 "Old enough for mature gaming" - the budget was 400 - so I was able to buy a PS4
+ //"year born" = 2015 -2008 = your age is 7 "too young for consoles buy toys"
+ //"year born" = 2015 - 1999 = your age is 16 "old enough for mature gaming" - the budget was 900 - so i was able to buy all current gen consoles
+ // "year born" = 2015 - 2000" = your age is 15 "old enough for mature gaming" - the budget was 266 - so i was able to buy a nintendo 3ds
