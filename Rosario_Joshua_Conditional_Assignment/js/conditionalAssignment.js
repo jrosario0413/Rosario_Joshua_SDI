@@ -24,11 +24,11 @@ Class: Conditional Assignment
  if(isNaN(yearBorn) || yearBorn==="") {
      // Re- Prompt the user
      if (isNaN(yearBorn)) {
-         yearBorn = prompt("Please only use numbers\nWhat is your age?");
+         yearBorn = prompt("Please only use numbers\nWhat year were you born?");
 
 
      } else {
-         yearBorn = prompt("Do not leave blank\nWhat is your age?");
+         yearBorn = prompt("Do not leave blank\nWhat year were you born?");
 
      }
  }
@@ -36,16 +36,15 @@ Class: Conditional Assignment
      var age = currentYear - yearBorn;
      console.log("age is "+age);
      if(age<=13){
-         alert("Too young for consoles, Buy a DS");
-         console.log("Buy a DS");
-         (age <=13)? alert("Too young buy a DS") : alert("Old enough for mature gaming");
+         alert("Too young for consoles, play with toys");
+         console.log("Buy toys");
 
      } else {
-         alert("Old enough for mature gaming");
+         (age <=6)? alert("Too young Play with toys") : alert("Old enough for mature gaming");
          console.log("Old enough for mature gaming");
 
 
-         var gameBudget = prompt("First, What is your spending limit (Budget)?");
+         var gameBudget = prompt("What is your spending limit (Budget)?");
          console.log(gameBudget);
 //Validate user
          if (isNaN(gameBudget) || gameBudget === "") {
@@ -59,7 +58,7 @@ Class: Conditional Assignment
              }
 
          }
-
+console.log("Your budget is $"+gameBudget);
 
          if (gameBudget <= 150) {
              alert("Save more money!");
