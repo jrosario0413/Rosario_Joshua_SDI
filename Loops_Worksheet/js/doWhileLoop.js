@@ -10,11 +10,11 @@ Class:Do while loops
 
  // Do while Loop
 
- var kills = 0;
+ var kills = 1;
 
  do{
 
-     console.log("You have "+kills+" kills");
+     console.log("Dude you have "+ kills+" kills");
 
      kills++;
  }while(kills<101);
