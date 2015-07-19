@@ -9,13 +9,27 @@ Class:Do while loops
 //alert("test");
 
  // Do while Loop
+ //ask user if they wanna fight?
+ var fight= prompt("Want to fight? (yes)or(no)?");
 
- var kills = 1;
+ // Validate
+ while(fight.toLowerCase()!="yes"&& fight.toLowerCase()!="no") {
+// re- prompt the user using the same variable
+     fight = prompt("Please only use type yes or no.\nYES or NO.");
+ }
 
- do{
+     var matchLenght = prompt("Please enter match time limit(seconds).");
+     // Directly after each prompt, validate for that prompt
+     while (isNaN(matchLenght) || matchLenght === "") {
+         // re-Prompt using the same variable
+         matchLenght = prompt("Please only use numbers and Do not leave blank\nPlease enter a number.");
+     }
+     do {
+         console.log("You have " + matchLenght + " seconds left in the match");
+         matchLenght--
+     } while (matchLenght > 0);
 
-     console.log("Dude you have "+ kills+" kills");
 
-     kills++;
- }while(kills<101);
-console.log("YOU ARE ON A 100 KILLING SPREE!!!!!");
+     console.log("TIMES UP!!!");
+
+

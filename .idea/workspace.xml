@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3bccbd8e-b88d-4946-96f0-b7bfb31102aa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Loops_Worksheet/js/doWhileLoop.js" afterPath="$PROJECT_DIR$/Loops_Worksheet/js/doWhileLoop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Loops_Worksheet/js/whileLoop.js" afterPath="$PROJECT_DIR$/Loops_Worksheet/js/whileLoop.js" />
     </list>
     <ignored path="Rosario_Joshua_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="doWhileLoop.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/doWhileLoop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27272728">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5272727">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -38,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/loopsWorksheet.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="46" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -48,17 +47,17 @@
         <entry file="file://$PROJECT_DIR$/Day 6/js/day6Validation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="38" selection-start-line="21" selection-start-column="0" selection-end-line="29" selection-end-column="38" />
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whileLoop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Loops_Worksheet/whileLoop.html">
+      <file leaf-file-name="whileLoops.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 6/js/whileLoops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/whileLoop.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -140,8 +139,8 @@
         <option value="$PROJECT_DIR$/Loops_Worksheet/js/loopsWorksheet.js" />
         <option value="$PROJECT_DIR$/Loops_Worksheet/whileLoop.html" />
         <option value="$PROJECT_DIR$/Loops_Worksheet/doWhileLoop.html" />
-        <option value="$PROJECT_DIR$/Loops_Worksheet/js/doWhileLoop.js" />
         <option value="$PROJECT_DIR$/Loops_Worksheet/js/whileLoop.js" />
+        <option value="$PROJECT_DIR$/Loops_Worksheet/js/doWhileLoop.js" />
       </list>
     </option>
   </component>
@@ -747,18 +746,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 6/js/whileLoops.js">
+    <entry file="file://$PROJECT_DIR$/Loops_Worksheet/whileLoop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6363636">
-          <caret line="35" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18726592">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Loops_Worksheet/whileLoop.html">
+    <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/loopsWorksheet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="46" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 6/js/whileLoops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/whileLoop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 6/js/day6Validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -771,34 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/loopsWorksheet.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 6/js/day6Validation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="38" selection-start-line="21" selection-start-column="0" selection-end-line="29" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/whileLoop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Loops_Worksheet/js/doWhileLoop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27272728">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5272727">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding />
         </state>
       </provider>
