@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bccbd8e-b88d-4946-96f0-b7bfb31102aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 6/js/whileLoops.js" afterPath="$PROJECT_DIR$/Day 6/js/whileLoops.js" />
-    </list>
+    <list default="true" id="3bccbd8e-b88d-4946-96f0-b7bfb31102aa" name="Default" comment="" />
     <ignored path="Rosario_Joshua_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,18 +21,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="whileLoops.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 6/js/whileLoops.js">
+      <file leaf-file-name="day6ForLoops.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 6/js/day6ForLoops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56363636">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.09090909">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day6WhileLoop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 6/day6WhileLoop.html">
+      <file leaf-file-name="da6ForLoops.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 6/da6ForLoops.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.25">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
@@ -91,6 +89,8 @@
         <option value="$PROJECT_DIR$/Rosario_Joshua_Conditional_Assignment/js/conditionalAssignment.js" />
         <option value="$PROJECT_DIR$/Day 6/day6WhileLoop.html" />
         <option value="$PROJECT_DIR$/Day 6/js/whileLoops.js" />
+        <option value="$PROJECT_DIR$/Day 6/da6ForLoops.html" />
+        <option value="$PROJECT_DIR$/Day 6/js/day6ForLoops.js" />
       </list>
     </option>
   </component>
@@ -602,8 +602,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 6/js/whileLoops.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56363636">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 6/da6ForLoops.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 6/js/day6ForLoops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09090909">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
