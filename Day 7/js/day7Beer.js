@@ -10,9 +10,23 @@ Class:
 
  // Let's create a loop that will write out the lyrics "99 Bottles of beers"
 
+
+
+
+
+ var numBeers = prompt("How many beers are on your wall?");
+ //Validate user prompt
+ while(isNaN(numBeers) || numBeers ===""){
+     if (isNaN(numBeers)){
+         numBeers=prompt("Please only use numbers\nHow many beers on the wall?")
+     }else{
+         numBeers=prompt("Please do not elave blank\nHow many beer on the wall?")
+     }
+ }
+ 
  //for(initialization; condition; increment of change){}
 
- for(var i=99; i>0; i--){
+ for(var i=numBeers; i>0; i--){
      //Verify that the loop works
      //console.log(i);
      if(i===2){
