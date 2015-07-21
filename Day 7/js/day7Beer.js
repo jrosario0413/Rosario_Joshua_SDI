@@ -23,7 +23,7 @@ Class:
          numBeers=prompt("Please do not elave blank\nHow many beer on the wall?")
      }
  }
- 
+
  //for(initialization; condition; increment of change){}
 
  for(var i=numBeers; i>0; i--){
