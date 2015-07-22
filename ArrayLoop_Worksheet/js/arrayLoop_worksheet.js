@@ -14,6 +14,7 @@ Class: Array Loop Worksheet
 // hero array
  var arr =["superman","batman","flash","cyborg","aquaman"];
  var heroFinder = false;
+ var heroNumber = 0;
  //user chooses hero to lead assault
 
 
@@ -22,15 +23,17 @@ var hero = prompt("Select your hero to lead the assault on Arkham Asylum\nsuperm
  for(var j = 0; j < arr.length; j++){
      if(hero === arr[j]){
          heroFinder = true;
+         heroNumber = j;
      }
  }
 
  while(heroFinder === false){
-     hero = prompt("Please select a hero and do not leave blank")
+     hero = prompt("Please select a hero and do not leave blank\nsuperman, batman, flash, cyborg, aquaman");
      j = 0;
      for(var j = 0; j < arr.length; j++){
          if(hero === arr[j]){
              heroFinder = true;
+             heroNumber = j;
          }
      }
  }
@@ -39,26 +42,21 @@ var hero = prompt("Select your hero to lead the assault on Arkham Asylum\nsuperm
      //call out hero
      if(hero==="superman") {
          console.log("Good job "+hero+". You lead the assault!");
-
      }
      else if(hero==="batman"){
          console.log("Good job "+hero+". You lead the assault!");
-
      }
-
      else if (hero==="flash"){
          console.log("Good job "+hero+". You lead the assault!");
-
      }
      else if(hero==="cyborg"){
          console.log("Good job "+hero+". You lead the assault!");
-
      }
      else if(hero==="aquaman"){
          console.log("Good job "+hero+". You lead the assault!");
-
      }
-
+ 
+ arr.splice(heroNumber,1)
  for(var i =0; i<arr.length; i++) {
     console.log("Follow the leader "+arr[i]);
  }
