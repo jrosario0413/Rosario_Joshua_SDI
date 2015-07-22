@@ -23,7 +23,13 @@ Class:
  console.log(scoobyGang.length);
 
  for(var i =0; i<scoobyGang.length; i++){
-console.log("You have solved the crime "+scoobyGang[i]);
+     //call out scooby and shaggy to get scooby snacks
+     if(scoobyGang[i]==="Scooby" || scoobyGang[i]==="Shaggy"){
+         console.log("Good job "+scoobyGang[i]+". You get a scooby snack.");
+     }else{
+         console.log("You have solved the crime "+scoobyGang[i]);
+
+     }
  }
 
 
