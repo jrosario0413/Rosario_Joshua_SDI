@@ -23,8 +23,8 @@ Class:
  function calcArea(){
 
      //Create variables
-     var width = 10;
-     var height = 20;
+    // width = 10;
+      //height = 20;
 
      //Calculate area
      var area = width*height;
@@ -34,4 +34,8 @@ Class:
  }
 
  //call the function
+ calcArea();
+ //change the variable
+ width=50;
+ height=10;
  calcArea();
