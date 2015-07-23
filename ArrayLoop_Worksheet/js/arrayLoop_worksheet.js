@@ -55,7 +55,7 @@ var hero = prompt("Select your hero to lead the assault on Arkham Asylum\nsuperm
      else if(hero==="aquaman"){
          console.log("Good job "+hero+". You lead the assault!");
      }
- 
+
  arr.splice(heroNumber,1)
  for(var i =0; i<arr.length; i++) {
     console.log("Follow the leader "+arr[i]);
