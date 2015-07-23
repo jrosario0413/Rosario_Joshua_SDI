@@ -43,3 +43,4 @@ Class:
 
  //Create function call
  calcArea();
+
