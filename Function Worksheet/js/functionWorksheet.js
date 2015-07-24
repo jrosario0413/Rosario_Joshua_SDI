@@ -26,9 +26,10 @@ Class:Function Worksheet
      console.log("The circumference is "+circumferenceTotal);
 
 
-     //in order to use results in main code use return
-     //return - "Whatever you want to return";
+
      return circumferenceTotal;
 
  }
 
+var total=calcCircum(3.14,30);
+ console.log("The circumference of whatever circle is "+total);
