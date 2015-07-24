@@ -33,3 +33,27 @@ Class:Function Worksheet
 
 var total=calcCircum(3.14,30);
  console.log("The circumference of whatever circle is "+total);
+
+
+ //Bee stings to KILL
+
+ var animalWeight = 5;
+
+ //Create a funcition that will calculate death by bee sting
+ function stings(animalWeight){
+
+     //animal weight* 8.666666667 = stings needed to die
+     var stingsNeeded = animalWeight* 8.666666667;
+
+     //Print out the results
+     console.log("It takes "+stingsNeeded+" stings to kill an animal that weights "+animalWeight+" pounds");
+
+return stingsNeeded;
+ }
+//use function
+
+ var results2 = stings(animalWeight);
+ // print results
+
+ console.log("It takes "+results2+" stings to kill an animal that weights "+animalWeight+" pounds");
+
