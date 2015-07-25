@@ -49,13 +49,22 @@ var results1= randomizer(min,max);
 console.log("Your random number is "+results1+".");
 
 
- //15 random numbers to print the console.log
+ //15 random numbers between 10 and 20 to print the console.log
+ //What is the sum of these random numbers
+ var total=0;
+
+ //Lets create an array to hold the values
+ var randomArray =[];
+
  for(var i=0;i<15;i++){
-var tempNum = randomizer(min,max);
+var tempNum = randomizer(10,20);
+     randomArray[i]=tempNum;
      console.log(tempNum);
+     total+=tempNum;
+
  }
-
-
+console.log("the total of 15 random numbers is " +total+".");
+console.log(randomArray);
 
 
  //Create the random function
