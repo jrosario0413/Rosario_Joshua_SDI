@@ -79,3 +79,5 @@ printOut(Math.round(resultsCircum),paAreaTotal);
  for the area of parallelogram i used base 5 and height 6 total was = 30
  base = 5 height = 7 total = 35
   */
+
+ 
