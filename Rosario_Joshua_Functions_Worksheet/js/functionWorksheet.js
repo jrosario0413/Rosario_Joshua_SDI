@@ -80,4 +80,3 @@ printOut(Math.round(resultsCircum),paAreaTotal);
  base = 5 height = 7 total = 35
   */
 
- 
